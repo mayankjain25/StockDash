@@ -7,7 +7,6 @@
   },
   "dependencies": {
     "@observablehq/plot": "^0.5.2",
-    "@types/": "observablehq/plot",
     "axios": "^0.27.2",
     "next": "latest",
     "react": "18.1.0",
