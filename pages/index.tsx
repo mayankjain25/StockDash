@@ -14,7 +14,7 @@ const Home: NextPage = () => {
   useEffect(() => {
     const getTopStocks = async () => {
       const { data } = await axios.get(
-        `${process.env.NEXT_PUBLIC_API_URL}/stocks/top`
+        `http://3.7.248.230:8081/stocks/top`
       );
       setTopStocks(data);
     };

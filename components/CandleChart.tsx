@@ -17,7 +17,7 @@ const CandleChart = ({ className, stockName }: Props) => {
     const getStocksData = async () => {
       setIsLoading(true);
       const { data } = await axios.get(
-        `http://localhost:8000/stocks/data/${stockName}?interval=wk`
+        `http://3.7.248.230:8081/stocks/data/${stockName}?interval=wk`
       );
       setData(data);
       setIsLoading(false);
